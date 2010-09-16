@@ -1,0 +1,16 @@
+= Default Views (default)
+
+scaffolding-like default views for resourceful views. Also assumes you are using InheritedResources.
+	
+For Example, in your controller you might put:
+
+	resourceful_views DefaultViewsDefault
+	
+Or use the defaults as the fallback for your own customizations
+
+	resourceful_views :my_view_customizations, DefaultViewsDefault
+	
+	
+Copyright (c) 2009-2010 3M. All rights reserved. Released under the MIT license.
+
+Authored by Jacob Burkhart.

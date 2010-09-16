@@ -1,0 +1,9 @@
+Showing a <%=resource.class.name%>
+
+<%=get_content_for(:show_contents)%>
+
+<%=link_to "back to list", url_for(:action => 'index')%>
+<br/><br/>
+<%=link_to "edit", url_for( :action => 'edit', :id => resource )%>
+<br/><br/>
+<%=link_to "destroy", url_for(:action => 'destroy', :id => resource), :confirm => "Are you sure?", :method => :delete%>
