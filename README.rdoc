@@ -2,7 +2,7 @@
 
 scaffolding-like default views for resourceful views. Also assumes you are using InheritedResources.
 	
-For Example, in your controller you might put:
+For example, in your controller you might put:
 
 	resourceful_views DefaultViewsDefault
 	
